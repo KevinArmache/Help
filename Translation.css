@@ -1,0 +1,40 @@
+/* Translation */
+
+<div id="form">
+  
+</div>
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  position:relative;
+}
+#form{
+  height:60vh;
+  width:40vw;
+  background-color:red;
+  margin:0 auto;
+  position:relative;
+  top:50vh;
+  transform:translateY(-50%)
+}
+
+/* autre methode */
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  position:relative;
+}
+#form{
+  height:60vh;
+  width:40vw;
+  background-color:red;
+  position:relative;
+  top:50vh;
+  left:50vw;
+  transform:translate(-50%,-50%);
+}
