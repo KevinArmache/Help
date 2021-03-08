@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+a {
+    color: pink;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.soulignement {
+    display: inline-block;
+}
+
+.soulignement::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	background: #f3506b;
+	transition: width .3s;
+}
+
+
+
+.soulignement:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
